@@ -185,7 +185,7 @@ void setup() {
   WiFi.softAP("m5cam");
 
   Serial.print("IP address: ");
-  Serial.println(WiFi.localIP());
+  Serial.println(WiFi.softAPIP());
 
   server.begin();
 }
